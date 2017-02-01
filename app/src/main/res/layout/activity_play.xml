@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kanrooapps.ispy.PlayActivity"
+    android:background="#E74C3C">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/play_bg"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="320dp"
+        android:background="@color/shadow_red"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="55dp"
+        android:layout_height="310dp"
+        android:background="@color/light_red"
+        android:id="@+id/photo"/>
+
+</RelativeLayout>

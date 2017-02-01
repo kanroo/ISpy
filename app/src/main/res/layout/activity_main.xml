@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kanrooapps.ispy.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menu_bg4"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/logo" />
+
+    <ImageView
+        android:layout_width="235dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/play_button"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/play_button" />
+
+    <ImageView
+        android:layout_width="235dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/multiplayer_button"
+        android:layout_below="@+id/play_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:id="@+id/multiplayer_button" />
+
+</RelativeLayout>
