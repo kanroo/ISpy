@@ -74,6 +74,7 @@ public class PlayActivity extends AppCompatActivity {
 
         // Possibly do this outside of this View and return an array of the circles and their positions so its easier to do placeLetters()
         // Draw letters along bottom of screen (maybe 12 of them) with random pos and angle
+    // test
         private void drawLetters()
         {}
 
