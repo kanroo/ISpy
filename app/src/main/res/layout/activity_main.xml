@@ -5,20 +5,20 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="kanrooapps.ispy.MainActivity">
+    android:background="@color/default_background"
+    tools:context="com.roodapps.ispy.activities.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/menu_bg4"
         android:scaleType="fitXY"
+        android:id="@+id/menu_bg"
         />
 
     <ImageView
         android:layout_width="225dp"
         android:layout_height="75dp"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/logo"
         android:layout_alignParentTop="true"
         android:layout_marginTop="30dp"
         android:id="@+id/logo" />
@@ -26,7 +26,6 @@
     <ImageView
         android:layout_width="235dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/play_button"
         android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
@@ -35,7 +34,6 @@
     <ImageView
         android:layout_width="235dp"
         android:layout_height="85dp"
-        app:srcCompat="@drawable/multiplayer_button"
         android:layout_below="@+id/play_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="1dp"
